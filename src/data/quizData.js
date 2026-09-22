@@ -1,50 +1,5 @@
 export const quizData = {
-  cyber_security: {
-    title: "Cyber Security (Test Questions)",
-    description:
-      "Mixed test with Multiple Choice, True/False, and Fill-in-the-blank.",
-    questions: [
-      {
-        id: 1,
-        type: "mcq",
-        question:
-          "Which of the following is an asymmetric encryption algorithm?",
-        options: ["AES", "DES", "RSA", "Blowfish"],
-        answer: "RSA",
-      },
-      {
-        id: 2,
-        type: "true_false",
-        question:
-          "A firewall can prevent all forms of social engineering attacks.",
-        options: ["True", "False"],
-        answer: "False",
-      },
-      {
-        id: 3,
-        type: "fill_blank",
-        question:
-          "SQL injection attacks typically exploit vulnerabilities in the application's _______ layer.",
-        answer: "database",
-      },
-      {
-        id: 4,
-        type: "mcq",
-        question:
-          "What type of attack involves overwhelming a server with malicious internet traffic?",
-        options: ["Phishing", "DDoS", "Man-in-the-Middle", "SQL Injection"],
-        answer: "DDoS",
-      },
-      {
-        id: 5,
-        type: "true_false",
-        question:
-          "Multi-Factor Authentication (MFA) requires two or more distinct verification factors.",
-        options: ["True", "False"],
-        answer: "True",
-      },
-    ],
-  },
+
   english_negotiation: {
     title: "English - Negotiation (Tutorial 1)",
     description: "Fill in the gaps with the correct words in each sentence.",
@@ -438,5 +393,51 @@ export const quizData = {
         answer: ["had gone"]
       }
     ]
-  }
+  },
+    cyber_security: {
+    title: "Cyber Security (Test Questions)",
+    description:
+      "Mixed test with Multiple Choice, True/False, and Fill-in-the-blank.",
+    questions: [
+      {
+        id: 1,
+        type: "mcq",
+        question:
+          "Which of the following is an asymmetric encryption algorithm?",
+        options: ["AES", "DES", "RSA", "Blowfish"],
+        answer: "RSA",
+      },
+      {
+        id: 2,
+        type: "true_false",
+        question:
+          "A firewall can prevent all forms of social engineering attacks.",
+        options: ["True", "False"],
+        answer: "False",
+      },
+      {
+        id: 3,
+        type: "fill_blank",
+        question:
+          "SQL injection attacks typically exploit vulnerabilities in the application's _______ layer.",
+        answer: "database",
+      },
+      {
+        id: 4,
+        type: "mcq",
+        question:
+          "What type of attack involves overwhelming a server with malicious internet traffic?",
+        options: ["Phishing", "DDoS", "Man-in-the-Middle", "SQL Injection"],
+        answer: "DDoS",
+      },
+      {
+        id: 5,
+        type: "true_false",
+        question:
+          "Multi-Factor Authentication (MFA) requires two or more distinct verification factors.",
+        options: ["True", "False"],
+        answer: "True",
+      },
+    ],
+  },
 };
