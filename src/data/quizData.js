@@ -154,7 +154,7 @@ export const quizData = {
         type: "fill_blank",
         question:
           "During negotiation, the speakers need to follow the _______ rules.",
-        answer: "concessions",
+        answer: "concession",
       },
       {
         id: 23,
