@@ -1,411 +1,411 @@
 export const quizData = {
-  english_negotiation: {
-    title: "English - Negotiation (Tutorial 1)",
-    description: "Fill in the gaps with the correct words in each sentence.",
-    questions: [
-      {
-        id: 1,
-        type: "fill_blank",
-        question:
-          "To be effective negotiating, you should be _______, and cooperative, even during difficult bargaining.",
-        answer: "fair",
-      },
-      {
-        id: 2,
-        type: "fill_blank",
-        question:
-          "In breaking off negotiations, we appear unable to _______ our differences.",
-        answer: "settle",
-      },
-      {
-        id: 3,
-        type: "fill_blank",
-        question:
-          "If you decide to continue negotiating, you need to make a new _______ and seek a new _______ from the other party.",
-        answer: "offer, offer",
-      },
-      {
-        id: 4,
-        type: "fill_blank",
-        question:
-          "When you prepare your bargaining position, you need to grade the concessions from the _______ to the most _______.",
-        answer: "easiest, difficult",
-      },
-      {
-        id: 5,
-        type: "fill_blank",
-        question:
-          "When we deal with conflict in negotiations, we could _______ for a little while to consider some fresh ideas.",
-        answer: "adjourn",
-      },
-      {
-        id: 6,
-        type: "fill_blank",
-        question:
-          "In ending negotiations, we can _______ the points we've agreed on.",
-        answer: "go through",
-      },
-      {
-        id: 7,
-        type: "fill_blank",
-        question:
-          "In dealing with conflict, we should look at the _______ package, not so much at _______ areas of difficulty.",
-        answer: "whole, individual",
-      },
-      {
-        id: 8,
-        type: "fill_blank",
-        question:
-          "When you negotiate to win or makes demands, this is hard, fighter, or _______ negotiator.",
-        answer: "win-lose",
-      },
-      {
-        id: 9,
-        type: "fill_blank",
-        question:
-          "When you look for common benefits or make offers, this is _______, independent advantage, or _______ negotiator.",
-        answer: "principled, win-win",
-      },
-      {
-        id: 10,
-        type: "fill_blank",
-        question:
-          "When you face rejecting in negotiation, you need to remember your _______, and decide if your interests are being _______, or suggest _______.",
-        answer: "limits, met, alternatives",
-      },
-      {
-        id: 11,
-        type: "fill_blank",
-        question:
-          "After the negotiation, you need to compare the result with your _______, _______, and _______.",
-        answer: "objectives, targets, limits",
-      },
-      {
-        id: 12,
-        type: "fill_blank",
-        question:
-          "After the negotiation, you need to examine the _______ of the negotiation.",
-        answer: "process",
-      },
-      {
-        id: 13,
-        type: "fill_blank",
-        question: "The process of the negotiation is the _______.",
-        answer: "planning - the strategy - team roles - the issues",
-      },
-      {
-        id: 14,
-        type: "fill_blank",
-        question:
-          "After the negotiation, we need to identify _______ and _______, and discuss and plan ahead.",
-        answer: "weaknesses, errors",
-      },
-      {
-        id: 15,
-        type: "fill_blank",
-        question:
-          "In negotiations, don't be _______, _______, _______, _______, and _______.",
-        answer: "sarcastic, attack, criticize, threaten, blame",
-      },
-      {
-        id: 16,
-        type: "fill_blank",
-        question:
-          "In negotiations, do ask _______, listen, summarize, build on common ground, and explain your _______.",
-        answer: "questions, feelings",
-      },
-      {
-        id: 17,
-        type: "fill_blank",
-        question:
-          "During the negotiation, the main speakers asks _______ and _______.",
-        answer: "needs, preferences",
-      },
-      {
-        id: 18,
-        type: "fill_blank",
-        question:
-          'During the negotiation, the main speaker needs "Don\'t _______ too much and fill _______."',
-        answer: "talk, silences",
-      },
-      {
-        id: 19,
-        type: "fill_blank",
-        question:
-          "During negotiation, your agenda must be _______, _______, and _______.",
-        answer: "clear, brief, firm",
-      },
-      {
-        id: 20,
-        type: "fill_blank",
-        question:
-          "During negotiation, the support speaker need to _______ till the Chair brings you in.",
-        answer: "wait",
-      },
-      {
-        id: 21,
-        type: "fill_blank",
-        question:
-          "During negotiation, the support speaker need to support the _______ speaker.",
-        answer: "main",
-      },
-      {
-        id: 22,
-        type: "fill_blank",
-        question:
-          "During negotiation, the speakers need to follow the _______ rules.",
-        answer: "concession",
-      },
-      {
-        id: 23,
-        type: "fill_blank",
-        question:
-          "During negotiation, the support speaker don't need to make _______ for the main speaker.",
-        answer: "concessions",
-      },
-      {
-        id: 24,
-        type: "fill_blank",
-        question:
-          "In concession rules, a key principle in negotiating is to give a _______ and get a _______ at the same time.",
-        answer: "little, little",
-      },
-      {
-        id: 25,
-        type: "fill_blank",
-        question: "In bargaining, all concessions are _______.",
-        answer: "conditional",
-      },
-      {
-        id: 26,
-        type: "fill_blank",
-        question:
-          "In concession rules, you need to give what's _______ to you and valuable to _______.",
-        answer: "cheap, them",
-      },
-      {
-        id: 27,
-        type: "fill_blank",
-        question:
-          "In planning and preparation, you need to list your bargaining _______, know your possible _______, and calculate your _______ position.",
-        answer: "strengths, weaknesses, bargaining",
-      },
-      {
-        id: 28,
-        type: "fill_blank",
-        question: "We need to state _______ objectives in opening statements.",
-        answer: "general",
-      },
-      {
-        id: 29,
-        type: "fill_blank",
-        question:
-          "In planning and preparation, we need to decide realistic _______ and _______ acceptable _______.",
-        answer: "maximum, minimum, scores",
-      },
-      {
-        id: 30,
-        type: "fill_blank",
-        question:
-          "In negotiations, the speakers need to prepare _______ data, and know _______.",
-        answer: "statistical, facts",
-      },
-      {
-        id: 31,
-        type: "fill_blank",
-        question:
-          "The purpose of negotiation is _______ in possible areas of interests and _______ in resolving differences.",
-        answer: "exploratory, conciliatory",
-      },
-      {
-        id: 32,
-        type: "fill_blank",
-        question:
-          "In breaking off negotiations it would be better to look for _______, some _______ arbitrator.",
-        answer: "arbitrator, independent",
-      },
-      {
-        id: 33,
-        type: "fill_blank",
-        question:
-          "When you support your main speaker, you need to _______, _______, and add _______ points.",
-        answer: "agree, emphasize, forgotten",
-      },
-      {
-        id: 34,
-        type: "fill_blank",
-        question:
-          "If you want to change the shape of the deal, you can decide to vary the _______ or the _______, or bring in _______ parties.",
-        answer: "quantity, quality, third party",
-      },
-      {
-        id: 35,
-        type: "fill_blank",
-        question:
-          "Your bargaining should be governed by three principles: be _______, think about the _______ package, and be _______.",
-        answer: "prepared, whole, constructive",
-      },
-      {
-        id: 36,
-        type: "fill_blank",
-        question:
-          "Opening statements state _______ objectives, priorities and _______ (not joint) objectives.",
-        answer: "general, independent",
-      },
-      {
-        id: 37,
-        type: "fill_blank",
-        question:
-          "Conflict in negotiation is that a team aims to _______ and make the other teams _______.",
-        answer: "win, lose",
-      },
-      {
-        id: 38,
-        type: "fill_blank",
-        question: "In independent advantage each team aims to get _______.",
-        answer: "best deal",
-      },
-    ],
-  },
-  english_grammar: {
-    title: "English - Grammar (Tutorial 2)",
-    description:
-      "Fill in the gaps with the correct forms of verbs in brackets.",
-    questions: [
-      {
-        id: 1,
-        type: "fill_blank",
-        question:
-          "Police _______ (arrest) more than 900 suspected drugs traffickers in raids through out the country on Friday and Saturday.",
-        answer: ["have arrested"],
-      },
-      {
-        id: 2,
-        type: "fill_blank",
-        question: "My suitcase _______ (pack) and I'm ready to go.",
-        answer: ["is packed", "has been packed"],
-      },
-      {
-        id: 3,
-        type: "fill_blank",
-        question: "The car needs _______ (wash).",
-        answer: ["washing", "needs to be washed", "to be washed"],
-      },
-      {
-        id: 4,
-        type: "fill_blank",
-        question: "This table _______ (scratch) easily.",
-        answer: ["scratches"],
-      },
-      {
-        id: 5,
-        type: "fill_blank",
-        question:
-          "I _______ (interview) on the radio tomorrow about my new book.",
-        answer: ["am being interviewed"],
-      },
-      {
-        id: 6,
-        type: "fill_blank",
-        question: "We _______ (drive) for three hours- it's time for a rest.",
-        answer: ["have been driving"],
-      },
-      {
-        id: 7,
-        type: "fill_blank",
-        question:
-          "She isn't here today. She only _______ (work) four days a week.",
-        answer: ["works"],
-      },
-      {
-        id: 8,
-        type: "fill_blank",
-        question: "We _______ (seek) new staff members right now.",
-        answer: ["are seeking"],
-      },
-      {
-        id: 9,
-        type: "fill_blank",
-        question:
-          "I _______ (watch) old movies on TV. Then I suddenly had a great idea for a script.",
-        answer: ["was watching"],
-      },
-      {
-        id: 10,
-        type: "fill_blank",
-        question:
-          "The vegetable didn't taste very good. They _______ (cook) too long.",
-        answer: ["were cooked", "had been cooked"],
-      },
-      {
-        id: 11,
-        type: "fill_blank",
-        question: "Let's go out. It _______ (not/ rain) now.",
-        answer: ["isn't raining", "is not raining"],
-      },
-      {
-        id: 12,
-        type: "fill_blank",
-        question: "It was warm, so I _______ (take) off my coat.",
-        answer: ["took"],
-      },
-      {
-        id: 13,
-        type: "fill_blank",
-        question: "The window was open and a bird _______ (fly) into the room.",
-        answer: ["flew"],
-      },
-      {
-        id: 14,
-        type: "fill_blank",
-        question:
-          "Sorry I'm late. That's all right. I _______ (not/wait) long.",
-        answer: ["haven't been waiting", "have not been waiting"],
-      },
-      {
-        id: 15,
-        type: "fill_blank",
-        question: "We need _______ (change) our plans.",
-        answer: ["to change"],
-      },
-      {
-        id: 16,
-        type: "fill_blank",
-        question: "The Emperor Charlemagne _______ (crown) in 800 AD.",
-        answer: ["was crowned"],
-      },
-      {
-        id: 17,
-        type: "fill_blank",
-        question: "The road _______ (close) because it _______ (repair).",
-        answer: [
-          "was closed / was being repaired",
-          "was closed, was being repaired",
-        ],
-      },
-      {
-        id: 18,
-        type: "fill_blank",
-        question:
-          "A 24-year-old soldier _______ (kill) in a road accident last night.",
-        answer: ["has been killed", "was killed"],
-      },
-      {
-        id: 19,
-        type: "fill_blank",
-        question:
-          "I _______ (study) chemistry for three years and there's another year to go.",
-        answer: ["have been studying"],
-      },
-      {
-        id: 20,
-        type: "fill_blank",
-        question:
-          "Rachel went to Sue's house, but she wasn't there. She _______ (go) out.",
-        answer: ["had gone"],
-      },
-    ],
-  },
+  // english_negotiation: {
+  //   title: "English - Negotiation (Tutorial 1)",
+  //   description: "Fill in the gaps with the correct words in each sentence.",
+  //   questions: [
+  //     {
+  //       id: 1,
+  //       type: "fill_blank",
+  //       question:
+  //         "To be effective negotiating, you should be _______, and cooperative, even during difficult bargaining.",
+  //       answer: "fair",
+  //     },
+  //     {
+  //       id: 2,
+  //       type: "fill_blank",
+  //       question:
+  //         "In breaking off negotiations, we appear unable to _______ our differences.",
+  //       answer: "settle",
+  //     },
+  //     {
+  //       id: 3,
+  //       type: "fill_blank",
+  //       question:
+  //         "If you decide to continue negotiating, you need to make a new _______ and seek a new _______ from the other party.",
+  //       answer: "offer, offer",
+  //     },
+  //     {
+  //       id: 4,
+  //       type: "fill_blank",
+  //       question:
+  //         "When you prepare your bargaining position, you need to grade the concessions from the _______ to the most _______.",
+  //       answer: "easiest, difficult",
+  //     },
+  //     {
+  //       id: 5,
+  //       type: "fill_blank",
+  //       question:
+  //         "When we deal with conflict in negotiations, we could _______ for a little while to consider some fresh ideas.",
+  //       answer: "adjourn",
+  //     },
+  //     {
+  //       id: 6,
+  //       type: "fill_blank",
+  //       question:
+  //         "In ending negotiations, we can _______ the points we've agreed on.",
+  //       answer: "go through",
+  //     },
+  //     {
+  //       id: 7,
+  //       type: "fill_blank",
+  //       question:
+  //         "In dealing with conflict, we should look at the _______ package, not so much at _______ areas of difficulty.",
+  //       answer: "whole, individual",
+  //     },
+  //     {
+  //       id: 8,
+  //       type: "fill_blank",
+  //       question:
+  //         "When you negotiate to win or makes demands, this is hard, fighter, or _______ negotiator.",
+  //       answer: "win-lose",
+  //     },
+  //     {
+  //       id: 9,
+  //       type: "fill_blank",
+  //       question:
+  //         "When you look for common benefits or make offers, this is _______, independent advantage, or _______ negotiator.",
+  //       answer: "principled, win-win",
+  //     },
+  //     {
+  //       id: 10,
+  //       type: "fill_blank",
+  //       question:
+  //         "When you face rejecting in negotiation, you need to remember your _______, and decide if your interests are being _______, or suggest _______.",
+  //       answer: "limits, met, alternatives",
+  //     },
+  //     {
+  //       id: 11,
+  //       type: "fill_blank",
+  //       question:
+  //         "After the negotiation, you need to compare the result with your _______, _______, and _______.",
+  //       answer: "objectives, targets, limits",
+  //     },
+  //     {
+  //       id: 12,
+  //       type: "fill_blank",
+  //       question:
+  //         "After the negotiation, you need to examine the _______ of the negotiation.",
+  //       answer: "process",
+  //     },
+  //     {
+  //       id: 13,
+  //       type: "fill_blank",
+  //       question: "The process of the negotiation is the _______.",
+  //       answer: "planning - the strategy - team roles - the issues",
+  //     },
+  //     {
+  //       id: 14,
+  //       type: "fill_blank",
+  //       question:
+  //         "After the negotiation, we need to identify _______ and _______, and discuss and plan ahead.",
+  //       answer: "weaknesses, errors",
+  //     },
+  //     {
+  //       id: 15,
+  //       type: "fill_blank",
+  //       question:
+  //         "In negotiations, don't be _______, _______, _______, _______, and _______.",
+  //       answer: "sarcastic, attack, criticize, threaten, blame",
+  //     },
+  //     {
+  //       id: 16,
+  //       type: "fill_blank",
+  //       question:
+  //         "In negotiations, do ask _______, listen, summarize, build on common ground, and explain your _______.",
+  //       answer: "questions, feelings",
+  //     },
+  //     {
+  //       id: 17,
+  //       type: "fill_blank",
+  //       question:
+  //         "During the negotiation, the main speakers asks _______ and _______.",
+  //       answer: "needs, preferences",
+  //     },
+  //     {
+  //       id: 18,
+  //       type: "fill_blank",
+  //       question:
+  //         'During the negotiation, the main speaker needs "Don\'t _______ too much and fill _______."',
+  //       answer: "talk, silences",
+  //     },
+  //     {
+  //       id: 19,
+  //       type: "fill_blank",
+  //       question:
+  //         "During negotiation, your agenda must be _______, _______, and _______.",
+  //       answer: "clear, brief, firm",
+  //     },
+  //     {
+  //       id: 20,
+  //       type: "fill_blank",
+  //       question:
+  //         "During negotiation, the support speaker need to _______ till the Chair brings you in.",
+  //       answer: "wait",
+  //     },
+  //     {
+  //       id: 21,
+  //       type: "fill_blank",
+  //       question:
+  //         "During negotiation, the support speaker need to support the _______ speaker.",
+  //       answer: "main",
+  //     },
+  //     {
+  //       id: 22,
+  //       type: "fill_blank",
+  //       question:
+  //         "During negotiation, the speakers need to follow the _______ rules.",
+  //       answer: "concession",
+  //     },
+  //     {
+  //       id: 23,
+  //       type: "fill_blank",
+  //       question:
+  //         "During negotiation, the support speaker don't need to make _______ for the main speaker.",
+  //       answer: "concessions",
+  //     },
+  //     {
+  //       id: 24,
+  //       type: "fill_blank",
+  //       question:
+  //         "In concession rules, a key principle in negotiating is to give a _______ and get a _______ at the same time.",
+  //       answer: "little, little",
+  //     },
+  //     {
+  //       id: 25,
+  //       type: "fill_blank",
+  //       question: "In bargaining, all concessions are _______.",
+  //       answer: "conditional",
+  //     },
+  //     {
+  //       id: 26,
+  //       type: "fill_blank",
+  //       question:
+  //         "In concession rules, you need to give what's _______ to you and valuable to _______.",
+  //       answer: "cheap, them",
+  //     },
+  //     {
+  //       id: 27,
+  //       type: "fill_blank",
+  //       question:
+  //         "In planning and preparation, you need to list your bargaining _______, know your possible _______, and calculate your _______ position.",
+  //       answer: "strengths, weaknesses, bargaining",
+  //     },
+  //     {
+  //       id: 28,
+  //       type: "fill_blank",
+  //       question: "We need to state _______ objectives in opening statements.",
+  //       answer: "general",
+  //     },
+  //     {
+  //       id: 29,
+  //       type: "fill_blank",
+  //       question:
+  //         "In planning and preparation, we need to decide realistic _______ and _______ acceptable _______.",
+  //       answer: "maximum, minimum, scores",
+  //     },
+  //     {
+  //       id: 30,
+  //       type: "fill_blank",
+  //       question:
+  //         "In negotiations, the speakers need to prepare _______ data, and know _______.",
+  //       answer: "statistical, facts",
+  //     },
+  //     {
+  //       id: 31,
+  //       type: "fill_blank",
+  //       question:
+  //         "The purpose of negotiation is _______ in possible areas of interests and _______ in resolving differences.",
+  //       answer: "exploratory, conciliatory",
+  //     },
+  //     {
+  //       id: 32,
+  //       type: "fill_blank",
+  //       question:
+  //         "In breaking off negotiations it would be better to look for _______, some _______ arbitrator.",
+  //       answer: "arbitrator, independent",
+  //     },
+  //     {
+  //       id: 33,
+  //       type: "fill_blank",
+  //       question:
+  //         "When you support your main speaker, you need to _______, _______, and add _______ points.",
+  //       answer: "agree, emphasize, forgotten",
+  //     },
+  //     {
+  //       id: 34,
+  //       type: "fill_blank",
+  //       question:
+  //         "If you want to change the shape of the deal, you can decide to vary the _______ or the _______, or bring in _______ parties.",
+  //       answer: "quantity, quality, third party",
+  //     },
+  //     {
+  //       id: 35,
+  //       type: "fill_blank",
+  //       question:
+  //         "Your bargaining should be governed by three principles: be _______, think about the _______ package, and be _______.",
+  //       answer: "prepared, whole, constructive",
+  //     },
+  //     {
+  //       id: 36,
+  //       type: "fill_blank",
+  //       question:
+  //         "Opening statements state _______ objectives, priorities and _______ (not joint) objectives.",
+  //       answer: "general, independent",
+  //     },
+  //     {
+  //       id: 37,
+  //       type: "fill_blank",
+  //       question:
+  //         "Conflict in negotiation is that a team aims to _______ and make the other teams _______.",
+  //       answer: "win, lose",
+  //     },
+  //     {
+  //       id: 38,
+  //       type: "fill_blank",
+  //       question: "In independent advantage each team aims to get _______.",
+  //       answer: "best deal",
+  //     },
+  //   ],
+  // },
+  // english_grammar: {
+  //   title: "English - Grammar (Tutorial 2)",
+  //   description:
+  //     "Fill in the gaps with the correct forms of verbs in brackets.",
+  //   questions: [
+  //     {
+  //       id: 1,
+  //       type: "fill_blank",
+  //       question:
+  //         "Police _______ (arrest) more than 900 suspected drugs traffickers in raids through out the country on Friday and Saturday.",
+  //       answer: ["have arrested"],
+  //     },
+  //     {
+  //       id: 2,
+  //       type: "fill_blank",
+  //       question: "My suitcase _______ (pack) and I'm ready to go.",
+  //       answer: ["is packed", "has been packed"],
+  //     },
+  //     {
+  //       id: 3,
+  //       type: "fill_blank",
+  //       question: "The car needs _______ (wash).",
+  //       answer: ["washing", "needs to be washed", "to be washed"],
+  //     },
+  //     {
+  //       id: 4,
+  //       type: "fill_blank",
+  //       question: "This table _______ (scratch) easily.",
+  //       answer: ["scratches"],
+  //     },
+  //     {
+  //       id: 5,
+  //       type: "fill_blank",
+  //       question:
+  //         "I _______ (interview) on the radio tomorrow about my new book.",
+  //       answer: ["am being interviewed"],
+  //     },
+  //     {
+  //       id: 6,
+  //       type: "fill_blank",
+  //       question: "We _______ (drive) for three hours- it's time for a rest.",
+  //       answer: ["have been driving"],
+  //     },
+  //     {
+  //       id: 7,
+  //       type: "fill_blank",
+  //       question:
+  //         "She isn't here today. She only _______ (work) four days a week.",
+  //       answer: ["works"],
+  //     },
+  //     {
+  //       id: 8,
+  //       type: "fill_blank",
+  //       question: "We _______ (seek) new staff members right now.",
+  //       answer: ["are seeking"],
+  //     },
+  //     {
+  //       id: 9,
+  //       type: "fill_blank",
+  //       question:
+  //         "I _______ (watch) old movies on TV. Then I suddenly had a great idea for a script.",
+  //       answer: ["was watching"],
+  //     },
+  //     {
+  //       id: 10,
+  //       type: "fill_blank",
+  //       question:
+  //         "The vegetable didn't taste very good. They _______ (cook) too long.",
+  //       answer: ["were cooked", "had been cooked"],
+  //     },
+  //     {
+  //       id: 11,
+  //       type: "fill_blank",
+  //       question: "Let's go out. It _______ (not/ rain) now.",
+  //       answer: ["isn't raining", "is not raining"],
+  //     },
+  //     {
+  //       id: 12,
+  //       type: "fill_blank",
+  //       question: "It was warm, so I _______ (take) off my coat.",
+  //       answer: ["took"],
+  //     },
+  //     {
+  //       id: 13,
+  //       type: "fill_blank",
+  //       question: "The window was open and a bird _______ (fly) into the room.",
+  //       answer: ["flew"],
+  //     },
+  //     {
+  //       id: 14,
+  //       type: "fill_blank",
+  //       question:
+  //         "Sorry I'm late. That's all right. I _______ (not/wait) long.",
+  //       answer: ["haven't been waiting", "have not been waiting"],
+  //     },
+  //     {
+  //       id: 15,
+  //       type: "fill_blank",
+  //       question: "We need _______ (change) our plans.",
+  //       answer: ["to change"],
+  //     },
+  //     {
+  //       id: 16,
+  //       type: "fill_blank",
+  //       question: "The Emperor Charlemagne _______ (crown) in 800 AD.",
+  //       answer: ["was crowned"],
+  //     },
+  //     {
+  //       id: 17,
+  //       type: "fill_blank",
+  //       question: "The road _______ (close) because it _______ (repair).",
+  //       answer: [
+  //         "was closed / was being repaired",
+  //         "was closed, was being repaired",
+  //       ],
+  //     },
+  //     {
+  //       id: 18,
+  //       type: "fill_blank",
+  //       question:
+  //         "A 24-year-old soldier _______ (kill) in a road accident last night.",
+  //       answer: ["has been killed", "was killed"],
+  //     },
+  //     {
+  //       id: 19,
+  //       type: "fill_blank",
+  //       question:
+  //         "I _______ (study) chemistry for three years and there's another year to go.",
+  //       answer: ["have been studying"],
+  //     },
+  //     {
+  //       id: 20,
+  //       type: "fill_blank",
+  //       question:
+  //         "Rachel went to Sue's house, but she wasn't there. She _______ (go) out.",
+  //       answer: ["had gone"],
+  //     },
+  //   ],
+  // },
   // cyber_security: {
   //   title: "Cyber Security (Test Questions)",
   //   description:
@@ -452,6 +452,316 @@ export const quizData = {
   //     },
   //   ],
   // },
+    nlp_exam: {
+    title: "Natural Language Processing (NLP) and Automata Theory Exam",
+    description:
+      "Multiple choice quiz covering NLTK, Minimum Edit Distance, N-gram models, Hidden Markov Models, and Finite State Automata.",
+    questions: [
+      {
+        id: 1,
+        type: "mcq",
+        question:
+          "Which of the following tasks in NOT directly supported by NLTK?",
+        options: [
+          "Semantic Reasoning",
+          "Tokenization",
+          "Image classification",
+          "Part-of-Speech Tagging",
+        ],
+        answer: "Image classification",
+      },
+      {
+        id: 2,
+        type: "mcq",
+        question: "Which of the following that FSA cannot handle well:",
+        options: [
+          "Sequential character-level patterns",
+          "Deeply nested structured",
+          "Regular structure",
+          "Local pattern",
+        ],
+        answer: "Deeply nested structured",
+      },
+      {
+        id: 3,
+        type: "mcq",
+        question:
+          "Which computational method is standardly used to efficiently solve the Minimum Edit Distance matrix problem?",
+        options: [
+          "Divide and conquer",
+          "Binary search tree",
+          "Greedy search",
+          "Dynamic Programming",
+        ],
+        answer: "Dynamic Programming",
+      },
+      {
+        id: 4,
+        type: "mcq",
+        question:
+          "Which of these will match the strings revolution, revolutionary, and revolutionaries?",
+        options: ["revolution[a-z]?", "revolution[a-z]+", "revolution[a-z]*"],
+        answer: "revolution[a-z]*",
+      },
+      {
+        id: 5,
+        type: "mcq",
+        question: "Which tool in NLTK performs lemmatization using WordNet?",
+        options: [
+          "SnowballStemmer",
+          "LancasterStemmer",
+          "PorterStemmer",
+          "WordNetLemmatizer",
+        ],
+        answer: "WordNetLemmatizer",
+      },
+      {
+        id: 6,
+        type: "mcq",
+        question: "What is not the field of Natural Language Processing (NLP)?",
+        options: [
+          "Computer Science",
+          "Linguistics",
+          "Artificial Intelligence",
+          "Economics",
+        ],
+        answer: "Economics",
+      },
+      {
+        id: 7,
+        type: "mcq",
+        question: "Why is smoothing necessary in N-gram models?",
+        options: [
+          "To handle unseen words or N-grams in the training data",
+          "To improve the interpretability of the model",
+          "To speed up computation",
+          "To reduce the size of the model",
+        ],
+        answer: "To handle unseen words or N-grams in the training data",
+      },
+      {
+        id: 8,
+        type: "mcq",
+        question:
+          'What is the Minimum Edit Distance (Levenshtein distance) between the words "cat" and "bat"?',
+        options: ["1", "3", "2", "0"],
+        answer: "1",
+      },
+      {
+        id: 9,
+        type: "mcq",
+        question: "What is the primary assumption made in N-gram models?",
+        options: [
+          "The probability of a word depends on the entire sentence",
+          "Words are dependent on each other",
+          "The probability of a word depends only on the previous N-1 words",
+          "Words are independent of each other",
+        ],
+        answer:
+          "The probability of a word depends only on the previous N-1 words",
+      },
+      {
+        id: 10,
+        type: "mcq",
+        question: "Why does lemmatization require POS tagging for accuracy?",
+        options: [
+          "To improve speed",
+          "To remove punctuation",
+          "To simplify tokenization",
+          "To identify the correct meaning-based base form",
+        ],
+        answer: "To identify the correct meaning-based base form",
+      },
+      {
+        id: 11,
+        type: "mcq",
+        question:
+          "Many words have more than one meaning, we have to select the meaning which makes the most sense in context. This can be resolved by -----------.",
+        options: [
+          "Word Sense Disambiguation",
+          "All of the mentioned",
+          "Shallow Semantic Analysis",
+          "Fuzzy Logic",
+        ],
+        answer: "Word Sense Disambiguation",
+      },
+      {
+        id: 12,
+        type: "mcq",
+        question: "The Viterbi algorithm is used in HMMs primarily to compute:",
+        options: [
+          "The most probable hidden state sequence",
+          "The likelihood of the observation sequence",
+          "The number of emission symbols",
+          "Transition matrix normalization",
+        ],
+        answer: "The most probable hidden state sequence",
+      },
+      {
+        id: 13,
+        type: "mcq",
+        question: "What is the field of Natural Language Processing (NLP)?",
+        options: [
+          "Artificial Intelligence",
+          "Linguistics",
+          "All of the mentioned",
+          "Computer Science",
+        ],
+        answer: "All of the mentioned",
+      },
+      {
+        id: 14,
+        type: "mcq",
+        question: "There are ---------- tuples in finite state machine.",
+        options: ["5", "unlimited", "6", "4"],
+        answer: "5",
+      },
+      {
+        id: 15,
+        type: "mcq",
+        question:
+          "A conditional frequency distribution ............... with a condition.",
+        options: [
+          "Needs to pair each event",
+          "Counts observable events",
+          "Unlimited",
+          "Count frequency words",
+        ],
+        answer: "Needs to pair each event",
+      },
+      {
+        id: 16,
+        type: "mcq",
+        question:
+          "If an HMM has 4 hidden states and 6 observation symbols, the size of the emission matrix is:",
+        options: ["4*6", "6*4", "6*6", "1*6"],
+        answer: "4*6",
+      },
+      {
+        id: 17,
+        type: "mcq",
+        question: "What is N-gram in language modelling?",
+        options: [
+          "A sequence of N letters",
+          "A sequence of N words",
+          "A sequence of N paragraphs",
+          "A sequence of N sentences",
+        ],
+        answer: "A sequence of N words",
+      },
+      {
+        id: 18,
+        type: "mcq",
+        question:
+          "Which N-gram model would you use to account for context from the previous two words?",
+        options: ["Four gram", "Bigram", "Unigram", "Trigram"],
+        answer: "Trigram",
+      },
+      {
+        id: 19,
+        type: "mcq",
+        question: "What is Machine Translation?",
+        options: [
+          "Converts one human language to another",
+          "Converts any human language to English",
+          "Converts Machine language to human language",
+          "Converts human language to machine language",
+        ],
+        answer: "Converts one human language to another",
+      },
+      {
+        id: 20,
+        type: "mcq",
+        question:
+          "The minimum number of edit operations needed to transform ----------.",
+        options: [
+          "number of characters in a string",
+          "one string into another",
+          "A number of words in a sentence",
+          "one word occuring after another",
+        ],
+        answer: "one string into another",
+      },
+      {
+        id: 21,
+        type: "mcq",
+        question:
+          "A frequency distribution ................., such as the appearance of words in a text.",
+        options: [
+          "Counts observable events",
+          "Unlimited",
+          "Count frequency words",
+          "Needs to pair each event",
+        ],
+        answer: "Counts observable events",
+      },
+      {
+        id: 22,
+        type: "mcq",
+        question: "The basic limitation of finite automata is that",
+        options: [
+          "It sometimes fails to recognize regular grammar.",
+          "It can't remember arbitrary large amount of information.",
+          "All of the mentioned",
+          "It sometimes recognize grammar that are not regular.",
+        ],
+        answer: "It can't remember arbitrary large amount of information.",
+      },
+      {
+        id: 23,
+        type: "mcq",
+        question: "Number of states require to accept string ends with 10.",
+        options: ["can't be represented.", "3", "1", "2"],
+        answer: "3",
+      },
+      {
+        id: 24,
+        type: "mcq",
+        question: "In a bigram model, the probability of a word depends on:",
+        options: [
+          "The first word of the sentence",
+          "The previous word",
+          "The next word",
+          "The word itself",
+        ],
+        answer: "The previous word",
+      },
+      {
+        id: 25,
+        type: "mcq",
+        question:
+          "In a Hidden Markov Model, which component determines how likely an observation is generated from a hidden state?",
+        options: [
+          "Emission probability",
+          "Posterior probability",
+          "Transition probability",
+          "Initial state probability",
+        ],
+        answer: "Emission probability",
+      },
+      {
+        id: 26,
+        type: "mcq",
+        question:
+          "Which of the following NLP tasks usually requires keeping stopwords instead of removing them?",
+        options: [
+          "Machine translation",
+          "Text classification",
+          "Keyword extraction",
+          "Sentiment analysis",
+        ],
+        answer: "Machine translation",
+      },
+      {
+        id: 27,
+        type: "mcq",
+        question:
+          "What do we put after a character to match strings where that character appears two to four times in sequence?",
+        options: ["{2-4}", "{2,4}", "[2,4]"],
+        answer: "{2,4}",
+      },
+    ],
+  },
   digital_image_processing: {
     title: "Digital Image Processing Quiz",
     description:
@@ -2248,224 +2558,258 @@ export const quizData = {
       },
     ],
   },
-  "nlp_exam": {
-    "title": "Natural Language Processing (NLP) and Automata Theory Exam",
-    "description": "Multiple choice quiz covering NLTK, Minimum Edit Distance, N-gram models, Hidden Markov Models, and Finite State Automata.",
-    "questions": [
+  data_center_network_quiz: {
+    title: "Data Center Network Quiz - MCQs and Correct Answers (Slides 27–32)",
+    description:
+      "Questions and selected correct answers extracted from the Data Center Network lecture slides.",
+    questions: [
       {
-        "id": 1,
-        "type": "mcq",
-        "question": "Which of the following tasks in NOT directly supported by NLTK?",
-        "options": ["Semantic Reasoning", "Tokenization", "Image classification", "Part-of-Speech Tagging"],
-        "answer": "Image classification"
-      },
-      {
-        "id": 2,
-        "type": "mcq",
-        "question": "Which of the following that FSA cannot handle well:",
-        "options": ["Sequential character-level patterns", "Deeply nested structured", "Regular structure", "Local pattern"],
-        "answer": "Deeply nested structured"
-      },
-      {
-        "id": 3,
-        "type": "mcq",
-        "question": "Which computational method is standardly used to efficiently solve the Minimum Edit Distance matrix problem?",
-        "options": ["Divide and conquer", "Binary search tree", "Greedy search", "Dynamic Programming"],
-        "answer": "Dynamic Programming"
-      },
-      {
-        "id": 4,
-        "type": "mcq",
-        "question": "Which of these will match the strings revolution, revolutionary, and revolutionaries?",
-        "options": ["revolution[a-z]?", "revolution[a-z]+", "revolution[a-z]*"],
-        "answer": "revolution[a-z]*"
-      },
-      {
-        "id": 5,
-        "type": "mcq",
-        "question": "Which tool in NLTK performs lemmatization using WordNet?",
-        "options": ["SnowballStemmer", "LancasterStemmer", "PorterStemmer", "WordNetLemmatizer"],
-        "answer": "WordNetLemmatizer"
-      },
-      {
-        "id": 6,
-        "type": "mcq",
-        "question": "What is not the field of Natural Language Processing (NLP)?",
-        "options": ["Computer Science", "Linguistics", "Artificial Intelligence", "Economics"],
-        "answer": "Economics"
-      },
-      {
-        "id": 7,
-        "type": "mcq",
-        "question": "Why is smoothing necessary in N-gram models?",
-        "options": ["To handle unseen words or N-grams in the training data", "To improve the interpretability of the model", "To speed up computation", "To reduce the size of the model"],
-        "answer": "To handle unseen words or N-grams in the training data"
-      },
-      {
-        "id": 8,
-        "type": "mcq",
-        "question": "What is the Minimum Edit Distance (Levenshtein distance) between the words \"cat\" and \"bat\"?",
-        "options": ["1", "3", "2", "0"],
-        "answer": "1"
-      },
-      {
-        "id": 9,
-        "type": "mcq",
-        "question": "What is the primary assumption made in N-gram models?",
-        "options": [
-          "The probability of a word depends on the entire sentence",
-          "Words are dependent on each other",
-          "The probability of a word depends only on the previous N-1 words",
-          "Words are independent of each other"
+        id: 1,
+        type: "mcq",
+        question:
+          "Traffic between two VMs on the same physical server is handled by:",
+        options: [
+          "a. ToR switch",
+          "b. Aggregation switch",
+          "c. vSwitch",
+          "d. Core router",
         ],
-        "answer": "The probability of a word depends only on the previous N-1 words"
+        answer: "c. vSwitch",
       },
       {
-        "id": 10,
-        "type": "mcq",
-        "question": "Why does lemmatization require POS tagging for accuracy?",
-        "options": ["To improve speed", "To remove punctuation", "To simplify tokenization", "To identify the correct meaning-based base form"],
-        "answer": "To identify the correct meaning-based base form"
-      },
-      {
-        "id": 11,
-        "type": "mcq",
-        "question": "Many words have more than one meaning, we have to select the meaning which makes the most sense in context. This can be resolved by -----------.",
-        "options": ["Word Sense Disambiguation", "All of the mentioned", "Shallow Semantic Analysis", "Fuzzy Logic"],
-        "answer": "Word Sense Disambiguation"
-      },
-      {
-        "id": 12,
-        "type": "mcq",
-        "question": "The Viterbi algorithm is used in HMMs primarily to compute:",
-        "options": [
-          "The most probable hidden state sequence",
-          "The likelihood of the observation sequence",
-          "The number of emission symbols",
-          "Transition matrix normalization"
+        id: 2,
+        type: "mcq",
+        question: "Which switch connects servers within the same rack?",
+        options: [
+          "a. Core switch",
+          "b. Aggregation switch",
+          "c. ToR switch",
+          "d. EoR switch",
         ],
-        "answer": "The most probable hidden state sequence"
+        answer: "c. ToR switch",
       },
       {
-        "id": 13,
-        "type": "mcq",
-        "question": "What is the field of Natural Language Processing (NLP)?",
-        "options": ["Artificial Intelligence", "Linguistics", "All of the mentioned", "Computer Science"],
-        "answer": "All of the mentioned"
-      },
-      {
-        "id": 14,
-        "type": "mcq",
-        "question": "There are ---------- tuples in finite state machine.",
-        "options": ["5", "unlimited", "6", "4"],
-        "answer": "5"
-      },
-      {
-        "id": 15,
-        "type": "mcq",
-        "question": "A conditional frequency distribution ............... with a condition.",
-        "options": ["Needs to pair each event", "Counts observable events", "Unlimited", "Count frequency words"],
-        "answer": "Needs to pair each event"
-      },
-      {
-        "id": 16,
-        "type": "mcq",
-        "question": "If an HMM has 4 hidden states and 6 observation symbols, the size of the emission matrix is:",
-        "options": ["4*6", "6*4", "6*6", "1*6"],
-        "answer": "4*6"
-      },
-      {
-        "id": 17,
-        "type": "mcq",
-        "question": "What is N-gram in language modelling?",
-        "options": ["A sequence of N letters", "A sequence of N words", "A sequence of N paragraphs", "A sequence of N sentences"],
-        "answer": "A sequence of N words"
-      },
-      {
-        "id": 18,
-        "type": "mcq",
-        "question": "Which N-gram model would you use to account for context from the previous two words?",
-        "options": ["Four gram", "Bigram", "Unigram", "Trigram"],
-        "answer": "Trigram"
-      },
-      {
-        "id": 19,
-        "type": "mcq",
-        "question": "What is Machine Translation?",
-        "options": [
-          "Converts one human language to another",
-          "Converts any human language to English",
-          "Converts Machine language to human language",
-          "Converts human language to machine language"
+        id: 3,
+        type: "mcq",
+        question:
+          "Which factor does NOT directly influence data center network architecture?",
+        options: [
+          "a. Cable length",
+          "b. Cable cost",
+          "c. Silicon technology",
+          "d. Operating system",
         ],
-        "answer": "Converts one human language to another"
+        answer: "d. Operating system",
       },
       {
-        "id": 20,
-        "type": "mcq",
-        "question": "The minimum number of edit operations needed to transform ----------.",
-        "options": [
-          "number of characters in a string",
-          "one string into another",
-          "A number of words in a sentence",
-          "one word occuring after another"
+        id: 4,
+        type: "mcq",
+        question: "Data traveling between racks typically passes through:",
+        options: [
+          "a. vSwitch only",
+          "b. ToR switch only",
+          "c. Aggregation/EoR switch",
+          "d. Core router only",
         ],
-        "answer": "one string into another"
+        answer: "c. Aggregation/EoR switch",
       },
       {
-        "id": 21,
-        "type": "mcq",
-        "question": "A frequency distribution ................., such as the appearance of words in a text.",
-        "options": ["Counts observable events", "Unlimited", "Count frequency words", "Needs to pair each event"],
-        "answer": "Counts observable events"
-      },
-      {
-        "id": 22,
-        "type": "mcq",
-        "question": "The basic limitation of finite automata is that",
-        "options": [
-          "It sometimes fails to recognize regular grammar.",
-          "It can't remember arbitrary large amount of information.",
-          "All of the mentioned",
-          "It sometimes recognize grammar that are not regular."
+        id: 5,
+        type: "mcq",
+        question: "The primary function of a virtual switch (vSwitch) is to:",
+        options: [
+          "a. Connect racks in a data center",
+          "b. Switch traffic between VMs on the same server",
+          "c. Replace physical Ethernet switches",
+          "d. Manage storage traffic only",
         ],
-        "answer": "It can't remember arbitrary large amount of information."
+        answer: "b. Switch traffic between VMs on the same server",
       },
       {
-        "id": 23,
-        "type": "mcq",
-        "question": "Number of states require to accept string ends with 10.",
-        "options": ["can't be represented.", "3", "1", "2"],
-        "answer": "3"
+        id: 6,
+        type: "mcq",
+        question:
+          "Which component is responsible for configuring and maintaining both VMs and the vSwitch?",
+        options: ["a. NIC", "b. ToR switch", "c. Hypervisor", "d. Core router"],
+        answer: "c. Hypervisor",
       },
       {
-        "id": 24,
-        "type": "mcq",
-        "question": "In a bigram model, the probability of a word depends on:",
-        "options": ["The first word of the sentence", "The previous word", "The next word", "The word itself"],
-        "answer": "The previous word"
+        id: 7,
+        type: "mcq",
+        question:
+          "What device connects the server CPU chipset to the data center network?",
+        options: [
+          "a. Aggregation switch",
+          "b. Core switch",
+          "c. NIC or LOM",
+          "d. vSwitch",
+        ],
+        answer: "c. NIC or LOM",
       },
       {
-        "id": 25,
-        "type": "mcq",
-        "question": "In a Hidden Markov Model, which component determines how likely an observation is generated from a hidden state?",
-        "options": ["Emission probability", "Posterior probability", "Transition probability", "Initial state probability"],
-        "answer": "Emission probability"
+        id: 8,
+        type: "mcq",
+        question: "In cloud data centers, servers typically use:",
+        options: [
+          "a. Two low-bandwidth network interfaces",
+          "b. Multiple redundant NICs per VM",
+          "c. A single high-bandwidth network connection shared by VMs",
+          "d. Wireless network connections",
+        ],
+        answer: "c. A single high-bandwidth network connection shared by VMs",
       },
       {
-        "id": 26,
-        "type": "mcq",
-        "question": "Which of the following NLP tasks usually requires keeping stopwords instead of removing them?",
-        "options": ["Machine translation", "Text classification", "Keyword extraction", "Sentiment analysis"],
-        "answer": "Machine translation"
+        id: 9,
+        type: "mcq",
+        question:
+          "How does a vSwitch achieve high-bandwidth communication between VMs on the same server?",
+        options: [
+          "a. By sending packets through the ToR switch",
+          "b. By copying data to external shared memory",
+          "c. By passing pointers to data in main memory",
+          "d. By using Fibre Channel",
+        ],
+        answer: "c. By passing pointers to data in main memory",
       },
       {
-        "id": 27,
-        "type": "mcq",
-        "question": "What do we put after a character to match strings where that character appears two to four times in sequence?",
-        "options": ["{2-4}", "{2,4}", "[2,4]"],
-        "answer": "{2,4}"
-      }
-    ]
-  }
+        id: 10,
+        type: "mcq",
+        question: "Why is 10GbE commonly used in virtualized servers?",
+        options: [
+          "a. To support wireless access",
+
+          "b. To reduce cabling cost",
+          "c. To overcome network interface bandwidth limitations",
+          "d. To replace the vSwitch",
+        ],
+        answer: "c. To overcome network interface bandwidth limitations",
+      },
+      {
+        id: 11,
+        type: "mcq",
+        question: "What is a major challenge in managing vSwitches?",
+        options: [
+          "a. Lack of VM support",
+          "b. Requirement for coordination between server and network administrators",
+          "c. Excessive hardware cost",
+          "d. Limited VM scalability",
+        ],
+        answer:
+          "b. Requirement for coordination between server and network administrators",
+      },
+      {
+        id: 12,
+        type: "mcq",
+        question: "Ideally, the vSwitch should:",
+        options: [
+          "a. Operate independently of the data center network",
+          "b. Use different forwarding rules than physical switches",
+          "c. Be a seamless part of the overall data center network",
+          "d. Replace the hypervisor",
+        ],
+        answer: "c. Be a seamless part of the overall data center network",
+      },
+      {
+        id: 13,
+        type: "mcq",
+        question:
+          "Which technology helps unify control of vSwitches and physical switches?",
+        options: [
+          "a. VLAN",
+          "b. Fibre Channel",
+          "c. Software Defined Networking (SDN)",
+          "d. NAT",
+        ],
+        answer: "c. Software Defined Networking (SDN)",
+      },
+      {
+        id: 14,
+        type: "mcq",
+        question: "Traditional data center traffic mainly consisted of:",
+        options: [
+          "a. Server-to-server communication",
+          "b. Client-to-server communication",
+          "c. VM-to-VM communication",
+          "d. Storage-to-storage communication",
+        ],
+        answer: "b. Client-to-server communication",
+      },
+      {
+        id: 15,
+        type: "mcq",
+        question: "East-West traffic in a data center refers to:",
+        options: [
+          "a. Client-to-server communication",
+          "b. Server-to-server communication",
+          "c. Internet-to-server communication",
+          "d. Router-to-switch communication",
+        ],
+        answer: "b. Server-to-server communication",
+      },
+      {
+        id: 16,
+        type: "mcq",
+        question: "North-South traffic refers to:",
+        options: [
+          "a. Server-to-server communication",
+          "b. Client-to-data center communication",
+          "c. VM-to-VM communication",
+          "d. Switch-to-switch communication",
+        ],
+        answer: "b. Client-to-data center communication",
+      },
+      {
+        id: 17,
+        type: "mcq",
+        question: "In a three-tier network, adding more tiers leads to:",
+        options: [
+          "a. Lower latency",
+          "b. Perfect load balancing",
+          "c. Increased congestion hot spots",
+          "d. Elimination of oversubscription",
+        ],
+        answer: "c. Increased congestion hot spots",
+      },
+      {
+        id: 18,
+        type: "mcq",
+        question:
+          "Which network design makes uniform bandwidth distribution easier?",
+        options: [
+          "a. Three-tier network",
+          "b. Four-tier network",
+          "c. Two-tier network",
+          "d. Ring topology",
+        ],
+        answer: "c. Two-tier network",
+      },
+      {
+        id: 19,
+        type: "mcq",
+        question:
+          "High East-West latency mainly affects data center performance because:",
+        options: [
+          "a. Client networks are slow",
+          "b. Server-to-server processing time increases",
+          "c. Optical fibers are expensive",
+          "d. Servers are overloaded",
+        ],
+
+        answer: "b. Server-to-server processing time increases",
+      },
+      {
+        id: 20,
+        type: "mcq",
+        question:
+          "Why are flat (two-tier) data center networks preferred in cloud data centers?",
+        options: [
+          "a. They use fewer servers",
+          "b. They eliminate the need for switches",
+          "c. They provide lower and predictable latency",
+          "d. They increase cable length",
+        ],
+        answer: "c. They provide lower and predictable latency",
+      },
+    ],
+  },
 };
