@@ -2248,4 +2248,224 @@ export const quizData = {
       },
     ],
   },
+  "nlp_exam": {
+    "title": "Natural Language Processing (NLP) and Automata Theory Exam",
+    "description": "Multiple choice quiz covering NLTK, Minimum Edit Distance, N-gram models, Hidden Markov Models, and Finite State Automata.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "mcq",
+        "question": "Which of the following tasks in NOT directly supported by NLTK?",
+        "options": ["Semantic Reasoning", "Tokenization", "Image classification", "Part-of-Speech Tagging"],
+        "answer": "Image classification"
+      },
+      {
+        "id": 2,
+        "type": "mcq",
+        "question": "Which of the following that FSA cannot handle well:",
+        "options": ["Sequential character-level patterns", "Deeply nested structured", "Regular structure", "Local pattern"],
+        "answer": "Deeply nested structured"
+      },
+      {
+        "id": 3,
+        "type": "mcq",
+        "question": "Which computational method is standardly used to efficiently solve the Minimum Edit Distance matrix problem?",
+        "options": ["Divide and conquer", "Binary search tree", "Greedy search", "Dynamic Programming"],
+        "answer": "Dynamic Programming"
+      },
+      {
+        "id": 4,
+        "type": "mcq",
+        "question": "Which of these will match the strings revolution, revolutionary, and revolutionaries?",
+        "options": ["revolution[a-z]?", "revolution[a-z]+", "revolution[a-z]*"],
+        "answer": "revolution[a-z]*"
+      },
+      {
+        "id": 5,
+        "type": "mcq",
+        "question": "Which tool in NLTK performs lemmatization using WordNet?",
+        "options": ["SnowballStemmer", "LancasterStemmer", "PorterStemmer", "WordNetLemmatizer"],
+        "answer": "WordNetLemmatizer"
+      },
+      {
+        "id": 6,
+        "type": "mcq",
+        "question": "What is not the field of Natural Language Processing (NLP)?",
+        "options": ["Computer Science", "Linguistics", "Artificial Intelligence", "Economics"],
+        "answer": "Economics"
+      },
+      {
+        "id": 7,
+        "type": "mcq",
+        "question": "Why is smoothing necessary in N-gram models?",
+        "options": ["To handle unseen words or N-grams in the training data", "To improve the interpretability of the model", "To speed up computation", "To reduce the size of the model"],
+        "answer": "To handle unseen words or N-grams in the training data"
+      },
+      {
+        "id": 8,
+        "type": "mcq",
+        "question": "What is the Minimum Edit Distance (Levenshtein distance) between the words \"cat\" and \"bat\"?",
+        "options": ["1", "3", "2", "0"],
+        "answer": "1"
+      },
+      {
+        "id": 9,
+        "type": "mcq",
+        "question": "What is the primary assumption made in N-gram models?",
+        "options": [
+          "The probability of a word depends on the entire sentence",
+          "Words are dependent on each other",
+          "The probability of a word depends only on the previous N-1 words",
+          "Words are independent of each other"
+        ],
+        "answer": "The probability of a word depends only on the previous N-1 words"
+      },
+      {
+        "id": 10,
+        "type": "mcq",
+        "question": "Why does lemmatization require POS tagging for accuracy?",
+        "options": ["To improve speed", "To remove punctuation", "To simplify tokenization", "To identify the correct meaning-based base form"],
+        "answer": "To identify the correct meaning-based base form"
+      },
+      {
+        "id": 11,
+        "type": "mcq",
+        "question": "Many words have more than one meaning, we have to select the meaning which makes the most sense in context. This can be resolved by -----------.",
+        "options": ["Word Sense Disambiguation", "All of the mentioned", "Shallow Semantic Analysis", "Fuzzy Logic"],
+        "answer": "Word Sense Disambiguation"
+      },
+      {
+        "id": 12,
+        "type": "mcq",
+        "question": "The Viterbi algorithm is used in HMMs primarily to compute:",
+        "options": [
+          "The most probable hidden state sequence",
+          "The likelihood of the observation sequence",
+          "The number of emission symbols",
+          "Transition matrix normalization"
+        ],
+        "answer": "The most probable hidden state sequence"
+      },
+      {
+        "id": 13,
+        "type": "mcq",
+        "question": "What is the field of Natural Language Processing (NLP)?",
+        "options": ["Artificial Intelligence", "Linguistics", "All of the mentioned", "Computer Science"],
+        "answer": "All of the mentioned"
+      },
+      {
+        "id": 14,
+        "type": "mcq",
+        "question": "There are ---------- tuples in finite state machine.",
+        "options": ["5", "unlimited", "6", "4"],
+        "answer": "5"
+      },
+      {
+        "id": 15,
+        "type": "mcq",
+        "question": "A conditional frequency distribution ............... with a condition.",
+        "options": ["Needs to pair each event", "Counts observable events", "Unlimited", "Count frequency words"],
+        "answer": "Needs to pair each event"
+      },
+      {
+        "id": 16,
+        "type": "mcq",
+        "question": "If an HMM has 4 hidden states and 6 observation symbols, the size of the emission matrix is:",
+        "options": ["4*6", "6*4", "6*6", "1*6"],
+        "answer": "4*6"
+      },
+      {
+        "id": 17,
+        "type": "mcq",
+        "question": "What is N-gram in language modelling?",
+        "options": ["A sequence of N letters", "A sequence of N words", "A sequence of N paragraphs", "A sequence of N sentences"],
+        "answer": "A sequence of N words"
+      },
+      {
+        "id": 18,
+        "type": "mcq",
+        "question": "Which N-gram model would you use to account for context from the previous two words?",
+        "options": ["Four gram", "Bigram", "Unigram", "Trigram"],
+        "answer": "Trigram"
+      },
+      {
+        "id": 19,
+        "type": "mcq",
+        "question": "What is Machine Translation?",
+        "options": [
+          "Converts one human language to another",
+          "Converts any human language to English",
+          "Converts Machine language to human language",
+          "Converts human language to machine language"
+        ],
+        "answer": "Converts one human language to another"
+      },
+      {
+        "id": 20,
+        "type": "mcq",
+        "question": "The minimum number of edit operations needed to transform ----------.",
+        "options": [
+          "number of characters in a string",
+          "one string into another",
+          "A number of words in a sentence",
+          "one word occuring after another"
+        ],
+        "answer": "one string into another"
+      },
+      {
+        "id": 21,
+        "type": "mcq",
+        "question": "A frequency distribution ................., such as the appearance of words in a text.",
+        "options": ["Counts observable events", "Unlimited", "Count frequency words", "Needs to pair each event"],
+        "answer": "Counts observable events"
+      },
+      {
+        "id": 22,
+        "type": "mcq",
+        "question": "The basic limitation of finite automata is that",
+        "options": [
+          "It sometimes fails to recognize regular grammar.",
+          "It can't remember arbitrary large amount of information.",
+          "All of the mentioned",
+          "It sometimes recognize grammar that are not regular."
+        ],
+        "answer": "It can't remember arbitrary large amount of information."
+      },
+      {
+        "id": 23,
+        "type": "mcq",
+        "question": "Number of states require to accept string ends with 10.",
+        "options": ["can't be represented.", "3", "1", "2"],
+        "answer": "3"
+      },
+      {
+        "id": 24,
+        "type": "mcq",
+        "question": "In a bigram model, the probability of a word depends on:",
+        "options": ["The first word of the sentence", "The previous word", "The next word", "The word itself"],
+        "answer": "The previous word"
+      },
+      {
+        "id": 25,
+        "type": "mcq",
+        "question": "In a Hidden Markov Model, which component determines how likely an observation is generated from a hidden state?",
+        "options": ["Emission probability", "Posterior probability", "Transition probability", "Initial state probability"],
+        "answer": "Emission probability"
+      },
+      {
+        "id": 26,
+        "type": "mcq",
+        "question": "Which of the following NLP tasks usually requires keeping stopwords instead of removing them?",
+        "options": ["Machine translation", "Text classification", "Keyword extraction", "Sentiment analysis"],
+        "answer": "Machine translation"
+      },
+      {
+        "id": 27,
+        "type": "mcq",
+        "question": "What do we put after a character to match strings where that character appears two to four times in sequence?",
+        "options": ["{2-4}", "{2,4}", "[2,4]"],
+        "answer": "{2-4}"
+      }
+    ]
+  }
 };
