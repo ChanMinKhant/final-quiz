@@ -2464,7 +2464,7 @@ export const quizData = {
         "type": "mcq",
         "question": "What do we put after a character to match strings where that character appears two to four times in sequence?",
         "options": ["{2-4}", "{2,4}", "[2,4]"],
-        "answer": "{2-4}"
+        "answer": "{2,4}"
       }
     ]
   }
