@@ -297,7 +297,7 @@ export const quizData = {
           "A collection of components that support business transactions over the internet by providing seamless connectivity of diverse applications",
           "Combination of software tools that enables an organization's various systems and applications to communicate with other applications"
         ],
-        "answer": "A collection of components that support business transactions over the internet by providing seamless connectivity of diverse applications"
+        "answer": "Combination of software tools that enables an organization's various systems and applications to communicate with other applications"
       },
       {
         "id": 41,
