@@ -118,7 +118,7 @@ export const quizData = {
         "type": "mcq",
         "question": "In marketing and sale functional area, one of the potential input is:",
         "options": ["Raw material order", "Sale order", "Order data"],
-        "answer": "Sale order"
+        "answer": "Order data"
       },
       {
         "id": 16,
