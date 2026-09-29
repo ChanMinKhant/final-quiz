@@ -195,7 +195,7 @@ export const quizData = {
         "type": "mcq",
         "question": "In EPC diagrams, how many type of branching connectors?",
         "options": ["Four", "Three", "Two"],
-        "answer": "Two"
+        "answer": "Three"
       },
       {
         "id": 27,
@@ -216,7 +216,7 @@ export const quizData = {
         "type": "mcq",
         "question": "Widely used and widely recognized type of process-mapping technique is",
         "options": ["Hierarchical modeling", "Deployment flowcharting", "Event Process Chain (EPC)"],
-        "answer": "Event Process Chain (EPC)"
+        "answer": "Deployment flowcharting"
       },
       {
         "id": 30,
